@@ -132,8 +132,8 @@ Reward와 Score의 집계 에피소드 수가 서로 달라 원문 값을 각각
 저장소를 복제한 뒤 프로젝트 루트에서 실행합니다. 아래 설치 예시는 **Linux / NVIDIA GPU / CUDA 12 / Python 3.11** 환경을 기준으로 합니다. `requirements.txt`에 GPU용 JAX가 고정되어 있으므로 GPU 드라이버와의 호환성을 확인해야 합니다.
 
 ```sh
-git clone https://github.com/maejinee/curious_reweighting.git
-cd curious_reweighting
+git clone https://github.com/AIKU-Official/aiku-26-S-StevetheDreamer.git
+cd aiku-26-S-StevetheDreamer
 
 python3.11 -m venv .venv
 source .venv/bin/activate
@@ -248,6 +248,7 @@ Notion 실험 기록의 이름과 담당 실험을 기준으로 정리했습니�
 
 ## 참고자료 및 라이선스
 
+- [원본 프로젝트 코드](https://github.com/maejinee/curious_reweighting)
 - [프로젝트 실험 기록: 스티브 실험 결과](https://app.notion.com/p/3ce855b4e56580c7979df9da86c056dd) — 본 README의 실험 수치와 역할 분담 출처. 페이지 접근 권한이 필요할 수 있습니다.
 - [DreamerV3 논문](https://arxiv.org/abs/2301.04104) / [공식 코드](https://github.com/danijar/dreamerv3)
 - [Curious Replay for Model-based Adaptation, ICML 2023](https://proceedings.mlr.press/v202/kauvar23a.html) / [공식 코드](https://github.com/AutonomousAgentsLab/curiousreplay)
