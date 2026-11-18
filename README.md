@@ -236,20 +236,12 @@ python -m scope.viewer --basedir ./logdir --port 8000
 
 ## 팀원
 
-Notion 실험 기록의 이름과 담당 실험을 기준으로 정리했습니다.
-
-| 팀원 | 담당 실험 |
-| --- | --- |
-| 혜진 | Survival Shaping |
-| 성진 | Achievement Reweighting |
-| 주은 | Latent Novelty |
-| 정훈 | Curious Replay |
-| 찬 | Replay Self-Imitation |
+엄혜진, 전성진, 한주은, 김정훈, 이찬, 이언호, 신채민
 
 ## 참고자료 및 라이선스
 
 - [원본 프로젝트 코드](https://github.com/maejinee/curious_reweighting)
-- [프로젝트 실험 기록: 스티브 실험 결과](https://app.notion.com/p/3ce855b4e56580c7979df9da86c056dd) — 본 README의 실험 수치와 역할 분담 출처. 페이지 접근 권한이 필요할 수 있습니다.
+- [프로젝트 실험 기록: 스티브 실험 결과](https://app.notion.com/p/3ce855b4e56580c7979df9da86c056dd) — 본 README의 실험 수치 출처. 페이지 접근 권한이 필요할 수 있습니다.
 - [DreamerV3 논문](https://arxiv.org/abs/2301.04104) / [공식 코드](https://github.com/danijar/dreamerv3)
 - [Curious Replay for Model-based Adaptation, ICML 2023](https://proceedings.mlr.press/v202/kauvar23a.html) / [공식 코드](https://github.com/AutonomousAgentsLab/curiousreplay)
 - [Crafter benchmark](https://github.com/danijar/crafter)
